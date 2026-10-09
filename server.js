@@ -69,3 +69,5 @@ wss.on("connection", (ws) => {
 
 console.log("Servidor en puerto", port);
 console.log("Reinicio admin:", ADMIN_KEY ? "ACTIVADO" : "DESACTIVADO (falta ADMIN_KEY)");
+
+console.log("VERSION 2 - con reinicio admin");
